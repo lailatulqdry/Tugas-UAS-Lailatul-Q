@@ -1,0 +1,182 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lailatul Qodriyah</title>
+    <link rel="stylesheet" href="{% static 'vendor/bootstrap/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'static/styles.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+</head>
+<body>
+  <!--NAVBAR-->
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <!--LOGO-->
+            <img src="/static/img/logo.png" alt="" width="30" height="30" class="me-2">
+            <strong>PORTOFOLIO</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Page">Page</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--HOME-->
+    <section id="Home"></section>
+      <section class="bg-secondary text-white p-5">
+        <div class="container">
+          <div class="d-sm-flex align-items-center justify-content-bet">
+            <div>
+              <h1 class="display-6">Hi, Welcome to My Website</h1>
+              <h2 class="display-3">I am Diyah</h2>
+                <p class="lead my-4">
+                  This is my simple website. On this website, I introduce myself a little, my friends and about my undergraduate education process at the green campus of the Islamic University of Madura.
+                  Please take a look if you want to know a little about me!
+                </p>
+              <a href="#home">
+                <button type="button" class="btn btn-danger btn-lg">
+                Home
+                </button>
+              </a>
+            </div>
+            <img src="static/img/case.png" class="img-fluid w-50 ">
+          </div>
+        </div>
+      </section>
+    </section>
+    <!--ABOUT-->
+  <section id="About">
+    <div style="background-color:rgba(22, 136, 189, 0.607) ;">
+    <section class="text-white p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center bg-dark text-light">
+            <h1>About</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col p-3 bg-light text-dark">
+            <p>
+              This website was created to complete my UAS assignment in semester 2 in the Algorithm and Programming II lesson. 
+              This course is one of the lessons that discuss in detail how to make things related to coding. So this lesson is very important because the beginning of becoming an IT
+               starts from the simple things learned in the Algorithm and Programming II course.
+            </p>
+          </div>
+          <div class="col p-3 bg-light text-dark">
+            <p>
+              Informatics Engineering is my favorite major in my dictionary. lots of fans. There are also many enthusiasts because this department already has good accreditation. 
+              In addition, there may be many prospective students who are interested in this department, seeing how in the future the development of technology seems to be increasingly powerful. So, choosing an IT major is a very right decision. Let's choose an IT major!!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div> 
+  </section>
+    <!--PAGE-->
+    <section id="Page">
+    <div class="bg-secondary text-dark">
+      <div class="row">
+        <div class="col text-white text-center p-5">
+          <h1>Page</h1>
+        </div>
+      </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <div class="card">
+            <img src="static/img/1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">
+                Hi, I'm Diyah, I chose IT because I intend to know more about computer technology. 
+                And it turns out I was right to choose this major because it is very relaxed. Pray for strength until you graduate and get a cumlaude degree.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card">
+            <img src="static/img/4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">
+                I have 5 friends who can be considered best friends. I've been friends with them since we were in high school. 
+                We always support each other. I am very close to them. I am very happy when I meet them. I hope we can I hope we can be friends untill jannah.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card">
+            <img src="static/img/3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">
+                My campus Islamic University of Madura is usually called a green campus because it is green hahaha. 
+                My campus is under the auspices of the Miftahul Ulum Bettet Islamic boarding school. Let's study at the Islamic University of Madura!!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!--CONTACT-->
+    <section id="Contact">
+      <div style="background-color:rgba(22, 136, 189, 0.607) ;">  
+    <div class="container">
+      <div class="row">
+        <div class="col text-dark text-center p-5">
+          <h1>Contact Us</h1>
+            <p>
+              You can contact us with our phone number and e-mail below.
+            </p>
+        </div>
+      </div>
+        <div class="ContactInfo">
+          <div class="col-5">
+            <div class="icon">
+              <div class="text">
+                <h2>Address</h2>
+                <p>
+                  Dsn.Malangan Tengah</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="icon">
+              <div class="text">
+                <h2>Phone</h2>
+                <p>+6283-3099-0717</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="icon">
+              <div class="text">
+                <h2>E-mail</h2>
+                <p>akusukacoding@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+      </div>
+  </section>
+</body>
+</html>
